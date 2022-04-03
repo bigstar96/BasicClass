@@ -139,10 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dynamic_Queue.cpp" />
+    <ClCompile Include="Dynamic_Stack.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StringClass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dynamic_Queue.h" />
+    <ClInclude Include="Dynamic_Stack.h" />
     <ClInclude Include="StringClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
